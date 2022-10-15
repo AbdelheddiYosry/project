@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>movie websites</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="img/fav-icon.png" type="image/x-icon">
+    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="nav container">
+            <a href="index.html" class="logo">
+                Movie<span>Vel</span>
+            </a>
+        </div>
+        <div class="search-box">
+            <input type="search" name="" id="search-in" placeholder="Search">
+            <i class="bx bx-search"></i>
+        </div>
+        <a href="#" class="user">
+            <img src="img/user.jpg" alt="" class="user-img">
+        </a>
+        <div class="navbar">
+            <a href="#home" class="nav-link nav-active">
+                <i class="bx bx-home"></i>
+                <span class="nav-link-title">Home</span>
+            </a>
+            <a href="#home" class="nav-link">
+                <i class="bx bxs-hot"></i>
+                <span class="nav-link-title">trending</span>
+            </a>
+            <a href="#home" class="nav-link">
+                <i class="bx bx-compass"></i>
+                <span class="nav-link-title">Explore</span>
+            </a>
+            <a href="#home" class="nav-link">
+                <i class="bx bx-tv"></i>
+                <span class="nav-link-title">Movies</span>
+            </a>
+            <a href="#home" class="nav-link">
+                <i class="bx bx-home"></i>
+                <span class="nav-link-title">Favourites</span>
+            </a>
+        </div>
+    </header>
+    <section class="home container" id="home">
+        <img src="img/home-background.png" alt="" class="home-img">
+        <diva class="home-text">
+            <h1 class="home-title"> Hitmain's Wife's <br>Bodyguard</h1>
+            <p>Releasing 10 April</p>
+            <a href="#" class="watch-btn">
+                <i class="bx bx-right-arrow"></i>
+                <span>watch the trailer</span>
+            </a>
+        </diva>
+    </section>
+    <section class="popular container" id="popular">
+        <div class="heading">
+            <h2 class="heading-title"> Popular Movies</h2>
+        </div>
+        <div class="single-pro-image">
+            <img src="https://photos.tf1info.fr/images/1280/720/trophees-du-film-francais-prix-du-public-top-10-2020-3d3a8b-0@1x.jpeg" id="productphoto1" alt="productphoto1">
+            <div class="small-img-grp">
+                <div class="image-groupe">
+                    <img src="data:image/jpeg;base64,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" class="smal1" alt="smal1">
+                </div>
+                <div class="image groupe">
+                    <img src="./products/f2.jpg" class="smal1" alt="smal1">
+                </div>
+                <div class="image groupe">
+                    <img src="./products/f3.jpg" class="smal1" alt="smal1">
+                </div>
+                <div class="image groupe">
+                    <img src="./products/f4.jpg" class="smal1" alt="smal1">
+                </div>
+                <div class="image groupe">
+                    <img src="./products/f5.jpg" class="smal1" alt="smal1">
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <script src="js/main.js"></script>
+</body>
+</html>
